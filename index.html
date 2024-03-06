@@ -1,183 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Creative - Lenielyn's Portfolio Theme</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Lenielyn's Portfolio</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">What I Likes </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Creative - Lenielyn's Portfolio Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        /* Additional CSS styles */
+        body {
+            background-color: #f8f9fa; /* Set background color */
+            background-image: url('1.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent the background image from repeating */
+            color: #333; /* Set default text color */
+            font-family: 'Merriweather', serif; /* Set default font */
+        }
+
+        /* Navigation */
+        .navbar-brand {
+            color: black !important; /* Change navigation brand color */
+        }
+
+        .navbar-nav .nav-link {
+            color: black !important; /* Change navigation links color */
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 100px 0; /* Add padding to header */
+        }
+
+        h2 {
+            font-size: 36px; /* Increase font size for header */
+            font-weight: bold; /* Make header text bold */
+            margin-bottom: 20px; /* Add margin below header */
+        }
+
+        p {
+            font-size: 18px; /* Increase font size for paragraph */
+            line-height: 1.6; /* Increase line height for better readability */
+        }
+
+        /* About Me Section */
+        #about {
+            padding: 100px 0; /* Add padding to the section */
+        }
+
+        .text-Black-100 {
+            color: #000 !important; /* Change text color */
+        }
+
+        /* Likes Section */
+        #Likes {
+            background-color: #fff; /* Set background color for services section */
+            padding: 100px 0; /* Add padding to the section */
+        }
+
+        /* Portfolio Section */
+        #portfolio {
+            padding: 100px 0; /* Add padding to the section */
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 100px 0; /* Add padding to the section */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333; /* Set background color for footer */
+            color: #fff; /* Set text color for footer */
+            text-align: center;
+            padding: 50px 0; /* Add padding to the footer */
+        }
+    </style>
+</head>
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Lenielyn's Portfolio</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Likes">Likes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header style="background-color: #f8f9fa; padding: 50px 0;"> <!-- Add background color and padding -->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 style="font-size: 36px; font-weight: bold; color: #333;">Portfolio!</h2> <!-- Adjust font size and weight, and color -->
+                    <p style="font-size: 18px; color: #666;">Hi! I'm Lenielyn Dalore Ponteras. Welcome! Get ready to know me.</p> <!-- Adjust font size and color -->
                 </div>
             </div>
-        </nav>
-        <!-- -->
-        <header class=C:\Users\user">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-Pink font-weight-bold">My Portfolio!</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Hi! I'm Lenielyn Dalore Ponteras <br> Welcome! and get ready to know me. </p>
-                        <a class="btn btn-primary btn-xl" href="#About Me">Let's get started!</a>
-                    </div>
+        </div>
+    </header>
                 </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4"> I'm 20 years old born from Lagonglong Misamis Oriental </p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
-                    </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h1 style="color: black; font-weight: bold;">About Me</h1>
+                    <hr class="divider divider-light" />
+                    <p style="color: black;">I'm 20 years old, born in Lagonglong Misamis Oriental.You can call me Len not Leni cause that's another person. My zodiac sign is Libra cause I'm born on October 19, 2003</p><br>
+                    <p style="color: black;">I LOVE myself. </p><br>
+                    <p style="color: black;">I have a younger brother whose 19 years old, senior high school.</p><br>
+                    <p style="color: black;">I love my parents, they are the reason why I'm still standing.</p>
+                    <img src="Parents.jpg" alt="" srcset="" style="max-width: 100%; height: auto;">
+            
+
                 </div>
             </div>
-        </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
+        </div>
+    </section>
+    
+
+
+    <!-- What I like Section -->
+<section id="Likes" style="background-color: #f8f9fa;">
+    <div class="container px-4 px-lg-5">
+        <div class="row justify-content-center"> <!-- Center the row -->
+            <div class="col-lg-10"> <!-- Set the column width -->
+                <h2 class="text-center mt-0">Likes</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                            <img src="th (1).jpg" alt="" style="max-width: 100%;" /> <!-- Add max-width style -->
+                            <h3 class="h4 mb-2">Kpop</h3>
+                            <p class="text-muted mb-0">Watching Kpop</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                            <img src="th (2).jpg" alt="" style="max-width: 100%;" /> <!-- Add max-width style -->
+                            <h3 class="h4 mb-2">Music</h3>
+                            <p class="text-muted mb-0">I love listening to music, It makes me calm.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                            <img src="th (3).jpg" alt="" style="max-width: 100%;" /> <!-- Add max-width style -->
+                            <h3 class="h4 mb-2">Exercise</h3>
+                            <p class="text-muted mb-0">Keep my body healthy.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                            <img src="th.jpg" alt="" style="max-width: 100%;" /> <!-- Add max-width style -->
+                            <h3 class="h4 mb-2">Movies</h3>
+                            <p class="text-muted mb-0">I like watching movies, especially action movies.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/1c.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/1c.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">FRIENDS</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/1a.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/1b.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Classmates</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/1d.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/1d.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Friends</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/1h.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/1h.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Self</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/1i.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/1i.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Self</div>
-                            </div>
-                        </a>
-                    </div>  
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/1g.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/1g.jpg" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Orgmates</div>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center">
+    </div>
+</section>
 
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5"></p>
-                    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/1c.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/1c.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Category</div>
+                            <div class="project-name">FRIENDS</div>
+                        </div>
+                    </a>
                 </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                       
-    </body>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/1a.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/1b.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Category</div>
+                            <div class="project-name">Classmates</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/1d.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/1d.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Category</div>
+                            <div class="project-name">Friends</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/1h.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/1h.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Category</div>
+                            <div class="project-name">Self</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/1i.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/1i.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Category</div>
+                            <div class="project-name">Self</div>
+                        </div>
+                    </a>
+                </div>  
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="assets/img/1g.jpg" title="Project Name">
+                        <img class="img-fluid" src="assets/img/1g.jpg" alt="..." />
+                        <div class="portfolio-box-caption p-3">
+                            <div class="project-category text-white-50">Category</div>
+                            <div class="project-name">Orgmates</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Call to action-->
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0">Let's Get In Touch!</h2>
+                    <p><strong>Name:</strong> Lenielyn D. Ponteras</p>
+                    <p><strong>Email:</strong> lenielyndponteras1234@gmail.com</p>
+                    <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                    <p><strong>Address:</strong> Cagayan de Oro City, 9000</p>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container px-4 px-lg-5">
+            <!-- Footer content here -->
+        </div>
+    </footer>
+
+</body>
 </html>
